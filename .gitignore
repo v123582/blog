@@ -5,3 +5,9 @@ db.json
 node_modules/
 public/
 .deploy*/
+_config.yml
+index.html
+package.json
+scaffolds/*
+source/_drafts/*
+themes/*
