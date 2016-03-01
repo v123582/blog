@@ -12,18 +12,16 @@ description:
 
 > Instant. Everywhere. - [AMP](https://www.ampproject.org/)
 
-行動網路的網頁讀取常常會有一些效能上的問題，因此 2015 年 10 月， Google 宣布 加速行動網頁（Accelerated Mobile Pages ， AMP）計畫。 AMP 是一個快速讀取行動網頁的框架，目的在於提高網頁內容的讀取速度，進而提升使用者體驗。在行動裝置下載網頁的時間，比過去快 4 倍，而且僅佔用原有 10分之一 的數據量。
+行動網路的網頁讀取的效能一直的開發者關注的議題，因此 2015 年 10 月， Google 宣布 加速行動網頁（Accelerated Mobile Pages ， AMP）計畫。 AMP 是一個加速行動網頁讀取的框架，目的在於提高網頁內容的讀取速度，進而提升使用者體驗。根據官方的資料顯示，在行動裝置下載網頁的時間，比過去快四倍，而且僅佔用原有十分之一的數據量。
+
+AMP 主要由 AMP HTML、AMP Runtime 以及 AMP Components 三部分组成：
+
+[AMP HTML](https://github.com/ampproject/amphtml/blob/master/spec/amp-html-format.md) 採用類似傳統 HTML 標籤，但只能採用規範的標籤。AMP HTML 中會引入 [AMP Runtime - JavaScript](https://cdn.ampproject.org/v0.js) ，作為負責協調資源的加載，以及提供驗證器等調試功能。[AMP Components](https://github.com/ampproject/amphtml/blob/master/spec/amp-html-components.md) 用來替換 AMP HTML 中使用自定義元素。
 
 AMP 有兩個主要目標：
 
 * 為了提高人們試圖讀取行動設備上的內容體驗
 * 為了更輕鬆地發佈內容
-
-### 使用者體驗更快速
-
-AMP page 會依賴 AMP javascript 引入內容到頁面上，AMP javascript 會讓內容的載入更加快速。此外所有的 AMP pages 和 AMP javascript 都是放在 Google 的 CDN 上。
-
-### 發佈內容更輕鬆
 
 由於 Facebook Instant Articles、Apple News 等即時新聞入口，已明顯對 Google 的核心廣告業務構成了威脅，Google 的 Instant Articles 可謂勢在必行，通過巨大流量與優化的呈現方式，來鞏固新聞類文章帶來的廣告業務優勢。 AMP 不同於 Facebook Instant Articles 和 Apple News 使用規定的資料格式，而是透過改善發佈策略來加速。這對於發佈者來說，是比較方便且簡單的作法。
 
@@ -57,7 +55,9 @@ Google Search 定義了對於行動網路的排序主要依據兩點：(1) 使�
 
 ## 結論
 
-AMP 解決了一個很具體的問題：盡可能快速的發布內容。對於網站的發布內容快速將提供更好的使用者體驗。然而，AMP 對於 Web 表單和自定義 JavaScript 的網站還尚未完全支援。
+AMP 解決了一個很具體的問題：盡可能快速的發布內容。對於網站的發布內容快速將提供更好的使用者體驗。我認為這樣的技術將會大幅降低效能調教的難度，未來只要依循幾個簡單的步驟，就可以達到這樣加速效果。不過就目前的資料來看，不能使用自定義的 JS 會是大家觀望的點。
+
+此外， RWD 及 AMP 都會是將來行動端網頁的重要需求。依據目的的不同而決定是否採用 RWD 或 AMP。
 
 
 ## Reference
@@ -67,6 +67,7 @@ AMP 解決了一個很具體的問題：盡可能快速的發布內容。對於�
 [3] [How To Get Started With Accelerated Mobile Pages (AMP)](http://seo.ads-facebook.com.tw/?p=375)
 [4] [[resolved] AMP vs RWD or AMP & RWD or simply AMP??](https://wordpress.org/support/topic/amp-vs-rwd-or-amp-rwd-or-simply-amp)
 [5] [​Google拼速度　點閱新聞更快速](http://www.appledaily.com.tw/realtimenews/article/new/20160225/803026/)
+[6] [AMP，来自 Google 的移动页面优化方案](https://imququ.com/post/amp-project.html)
 
 
 ---
