@@ -45,8 +45,8 @@ matplotlib 是最基礎的視覺的工具，但使用上比較複雜且麻煩。
 
 [1] [Comprehensive learning path – Data Science in Python](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-data-science-python/)
 [2] [数据科学之5个最佳Python库，为初学者定制的教程](http://dataunion.org/14513.html)
-[3] (python可视化工具概述)[http://www.xueqing.tv/cms/article/67]
-[4] (你用 Python 做过什么有趣的数据挖掘/分析项目？)[https://www.zhihu.com/question/28975391/answer/69556795]
+[3] [python可视化工具概述](http://www.xueqing.tv/cms/article/67)
+[4] [你用 Python 做过什么有趣的数据挖掘/分析项目？](https://www.zhihu.com/question/28975391/answer/69556795)
 
 ---
 ## License
