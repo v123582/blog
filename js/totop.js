@@ -1,4 +1,4 @@
-var host = "v123582.tw";
+var host = "blog.v123582.tw";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
     window.location.protocol = "https";
 
