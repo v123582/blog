@@ -1247,3 +1247,8 @@ i.fa.fa-star {
 
 .category-list-count:after {
   content: ')'; }
+
+#mc_embed_signup {
+  background: aliceblue;
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif; }
